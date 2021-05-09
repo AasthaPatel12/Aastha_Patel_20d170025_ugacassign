@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Girassol&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* .start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.contact{
+    height: 100vh;
+    /* margin: 20px 20px; */
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.main{
+    /* border: 2px solid black; */
+    color: white;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.main h2{
+    font-size: 45px;
+    font-family: 'Bree Serif', serif;
+    margin: 20px;
+}
+.main p{
+    font-size: 28px;
+    font-family: 'Playfair Display', serif;
+}
+.form{
+    width: 30rem;
+    height: 30rem;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input{
+    font-size: 20px;
+    height: 1rem;
+    width: 19rem;
+    margin: 20px 20px;
+    padding: 16px 16px;
+    border-radius: 8px;
+}
+.email{
+    margin-top: 5rem;
+}
+.btn{
+    padding: 12px 28px;
+    margin: 8px 5px;
+    border: 2px solid ;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    background:rgb(61, 79, 238);
+    
+}
+.btn:hover{
+    color: rgb(253, 252, 252);
+    background: rgb(46, 46, 240);
+}
+.background{
+    background: rgba(0, 0 , 0, 0.6) url('./IITB.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
